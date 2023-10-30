@@ -1,0 +1,142 @@
+h3 {
+  font-size: 5em;
+  font-family: 'DM Serif Text', serif;
+  color: #031f36;
+  font-weight: 100;
+  letter-spacing: .2rem;
+  top:0;
+  margin-top: 140px;
+  margin-left: 200px;
+  position: absolute;
+}
+.watch{
+  top:0;
+  margin-top: 120px;
+  margin-left: 200px;
+  position: absolute;  
+  border-top: 5px solid #031f36;
+  width: 300px;
+}
+
+.demand{
+    top:0;
+    margin-top: 200px;
+    margin-left: 200px;
+    position: absolute;  
+    border-top: 5px solid #031f36;
+    width: 400px;
+  }
+
+.grid-spacing{
+    margin-top: 300px;
+    margin-left: 400px; 
+}
+
+.grid-spacing-demand{
+  margin-top: 300px;
+  margin-left: 240px; 
+}
+
+.genre-button{
+    background-color: #031f36;
+    color: white;
+    font-size: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1px;
+    padding-top: 0;
+
+}
+
+.card-hr{
+    border-top: 5px solid #031f36;
+    border-radius: 5px;
+    margin-bottom: 9px;
+}
+
+.tv-hr{
+  border-top: 5px solid #031f36;
+  border-radius: 5px;
+  margin-bottom: 9px;
+}
+
+.hover{
+    transition: transform 1s;
+
+}
+
+.hover:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
+
+.tv-hover{
+  transition: transform 1s;
+}
+
+.tv-hover:hover {
+  -ms-transform: scale(.8); /* IE 9 */
+  -webkit-transform: scale(.8); /* Safari 3-8 */
+  transform: scale(.8); 
+  opacity: .9;
+}
+
+
+
+
+#section1 {
+  color: #fff;
+}
+
+.fp-section {
+  text-align: center;
+}
+
+button {
+  padding: 0.93em 1.87em;
+  background: #35495e;
+  border-radius: 5px;
+  border-color: transparent;
+  display: block;
+  color: #fff;
+  margin: 0 auto;
+  cursor: pointer;
+  font-size: 0.85em;
+}
+
+.actions {
+  list-style-type: none;
+}
+.actions button {
+  padding: 0.93em 1.87em;
+  background: #35495e;
+  border-radius: 5px;
+  border: 0;
+  color: #fff;
+  margin: 7px;
+  font-size: 15px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+
+.actions button:hover {
+  background: #fff;
+  color: #35495e;
+}
+
+.fp-prev{
+    left:100px;
+}
+
+.fp-next {
+    right: 100px;
+}
+
+.fp-arrow.fp-next {
+    border-color: transparent transparent transparent #031f36;
+}
+
+.fp-arrow.fp-prev{    
+    border-color: transparent #031f36 transparent transparent;
+}
